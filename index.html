@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- fontawesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
-    <!-- animate.css CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <div id="game">
-      <div id="text-wrap">
-        <p class="time-text"></p>
-        <div class="time-bar">
-          <div class="time-line"></div>
-        </div>
-        <div class="score-text"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>猜顏色遊戲</title>
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+  <!-- animate.css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="game">
+    <div id="text-wrap">
+      <p class="time-text"></p>
+      <div class="time-bar">
+        <div class="time-line"></div>
       </div>
-      <div id="game-wrap">
-        <table class="game-box"></table>
-        <div class="mask"></div>
-        <i class="mask-close far fa-times-circle"></i>
-        <div class="active-img"></div>
-      </div>
-      <div id="btns-wrap">
-        <input class="btn btn-start" type="button" value="遊戲開始" />
-        <div class="btns-bottom">
-          <input class="btn btn-restart" type="button" value="重新開始" />
-          <input class="btn btn-highscore" type="button" value="最高分紀錄" />
-          <input class="btn btn-rule" type="button" value="遊戲規則" />
-        </div>
+      <div class="score-text"></div>
+    </div>
+    <div id="game-wrap">
+      <table class="game-box"></table>
+      <div class="mask"></div>
+      <i class="mask-close far fa-times-circle"></i>
+      <div class="active-img"></div>
+    </div>
+    <div id="btns-wrap">
+      <input class="btn btn-start" type="button" value="遊戲開始" />
+      <div class="btns-bottom">
+        <input class="btn btn-restart" type="button" value="重新開始" />
+        <input class="btn btn-highscore" type="button" value="最高分紀錄" />
+        <input class="btn btn-rule" type="button" value="遊戲規則" />
       </div>
     </div>
+  </div>
 
-    <!-- JS -->
-    <script src="./js/main.js"></script>
-  </body>
+  <!-- JS -->
+  <script src="./js/main.js"></script>
+</body>
+
 </html>
